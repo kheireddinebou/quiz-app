@@ -61,7 +61,7 @@ function App() {
 
   return (
     <AppWrapper>
-      <h1>React Quize</h1>
+      <h1>React Quiz</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
         <button className="start" onClick={startTrivia}>
           start

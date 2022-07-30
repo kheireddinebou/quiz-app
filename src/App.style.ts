@@ -1,3 +1,4 @@
+
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
@@ -23,6 +24,7 @@ export const AppWrapper = styled.div`
   align-items: center;
 
   h1 {
+    text-transform: uppercase;
     font-family: Fascinate Inline;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
     font-weight: 400;
